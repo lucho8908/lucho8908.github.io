@@ -2,9 +2,6 @@
 title = "Teaching"
 author = ["Luis G. Polanco Contreras"]
 draft = false
-<!-- [menu.teaching]
-  weight = 1004
-  identifier = "teaching" -->
 +++
 
 ## Michigan State University {#msu}

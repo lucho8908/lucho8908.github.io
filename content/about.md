@@ -2,9 +2,6 @@
 title = "Luis G. Polanco Contreras"
 author = ["Luis G. Polanco Contreras"]
 draft = false
-<!-- [menu.about]
-  weight = 1002
-  identifier = "about" -->
 +++
 
 Doctoral Student <br />

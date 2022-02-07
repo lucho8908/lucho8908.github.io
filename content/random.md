@@ -2,9 +2,6 @@
 title = "Random photos"
 author = ["Luis G. Polanco Contreras"]
 draft = false
-<!-- [menu.random]
-  weight = 1005
-  identifier = "random-photos" -->
 +++
 
 # Random places

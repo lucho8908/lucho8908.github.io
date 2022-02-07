@@ -1,4 +1,4 @@
-	+++
++++
 title = "Luis G. Polanco Contreras"
 date = "2014-04-09"
 author = ["Luis G. Polanco Contreras"]
