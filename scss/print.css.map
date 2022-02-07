@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "print.css",
-	"sourceRoot": "/home/runner/work/ucho8908.github.io/ucho8908.github.io",
+	"sourceRoot": "/home/runner/work/lucho8908.github.io/lucho8908.github.io",
 	"sources": [
 		"themes/hyde-hyde/assets/scss/print.scss",
 		"themes/hyde-hyde/assets/scss/hyde-hyde/_variables.scss",
