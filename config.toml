@@ -1,5 +1,5 @@
 # Basic Configuration
-baseurl = "https://github.com/lucho8908/ucho8908.github.io"
+# baseurl = "https://github.com/lucho8908/ucho8908.github.io"
 languageCode = "en"
 
 title = "Luis G. Polanco"
