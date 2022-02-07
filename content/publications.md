@@ -2,9 +2,9 @@
 title = "Publications"
 author = ["Luis G. Polanco Contreras"]
 draft = false
-[menu.publications]
+<!-- [menu.publications]
   weight = 1002
-  identifier = "publications"
+  identifier = "publications" -->
 +++
 
 -   **Improving quasi-periodicity detection with persistent cup products** <br />
