@@ -17,4 +17,5 @@
     <link rel="shortcut icon" href="/favicon.png">
     {{ partial "header/feeds.html" . }}
     {{ partial "header/custom.html" }}
+    {{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 </head>

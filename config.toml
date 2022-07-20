@@ -14,11 +14,14 @@ theme = "hyde-hyde"
 
 #paginate = 5
 
+[markup.goldmark.renderer]
+hardWraps = true
+
 ## Site Settings
 [params]
     author = "Luis G. Polanco Contreras"
     title = "Luis G. Polanco Contreras"
-    description = "I'm a PhD student at CMSE - MSU"
+    description = "PhD | Data Sciene | Machine Learning"
     authorimage = "/img/avatar.jpg"
     dateformat = "Jan 2, 2006"
 
@@ -60,16 +63,7 @@ theme = "hyde-hyde"
     # pgpkey = "<path-to-your-key-in-/static>"
 
 ## Main Menu
-# [[menu.main]]
-#     name = "Posts"
-#     weight = 100
-#     identifier = "posts"
-#     url = "/posts/"
-# [[menu.main]]
-#     name = "Portfolio"
-#     identifier = "portfolio"
-#     weight = 200
-#     url = "/portfolio/"
+
 [[menu.main]]
     name = "About"
     identifier = "about"
@@ -77,25 +71,37 @@ theme = "hyde-hyde"
     url = "/about/"
 
 [[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    weight = 200
+    url = "/projects/"
+
+[[menu.main]]
     name = "Publications"
     identifier = "Publications"
-    weight = 200
+    weight = 300
     url = "/publications/"
+
+[[menu.main]]
+    name = "Talks"
+    identifier = "Talks"
+    weight = 400
+    url = "/talks/"
 
 [[menu.main]]
     name = "Teaching"
     identifier = "Teaching"
-    weight = 300
+    weight = 500
     url = "/teaching/"
 
 [[menu.main]]
     name = "CV"
     identifier = "CV"
-    weight = 400
+    weight = 600
     url = "../pdfs/Resume_Luis_Polanco.pdf"
 
 [[menu.main]]
     name = "Random"
     identifier = "random"
-    weight = 500
+    weight = 700
     url = "/random/"
