@@ -9,14 +9,26 @@
 <title>Projects • Luis G. Polanco</title>
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Projects">
-<meta name=twitter:description content="author: &ldquo;Michael Henderson&rdquo; date: 2014-09-28 linktitle: Creating a New Theme title: Creating a New Theme categories: [ &ldquo;Development&rdquo;, &ldquo;hugo&rdquo; ] tags: [&ldquo;hugo&rdquo;, &ldquo;theme&rdquo;, &ldquo;html&rdquo;, &ldquo;css&rdquo;] weight: 10 Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme.">
+<meta name=twitter:description content="author: &ldquo;Michael Henderson&rdquo;
+date: 2014-09-28
+linktitle: Creating a New Theme
+title: Creating a New Theme
+categories: [ &ldquo;Development&rdquo;, &ldquo;hugo&rdquo; ]
+tags: [&ldquo;hugo&rdquo;, &ldquo;theme&rdquo;, &ldquo;html&rdquo;, &ldquo;css&rdquo;]
+weight: 10 Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme.">
 <meta property="og:title" content="Projects">
-<meta property="og:description" content="author: &ldquo;Michael Henderson&rdquo; date: 2014-09-28 linktitle: Creating a New Theme title: Creating a New Theme categories: [ &ldquo;Development&rdquo;, &ldquo;hugo&rdquo; ] tags: [&ldquo;hugo&rdquo;, &ldquo;theme&rdquo;, &ldquo;html&rdquo;, &ldquo;css&rdquo;] weight: 10 Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme.">
+<meta property="og:description" content="author: &ldquo;Michael Henderson&rdquo;
+date: 2014-09-28
+linktitle: Creating a New Theme
+title: Creating a New Theme
+categories: [ &ldquo;Development&rdquo;, &ldquo;hugo&rdquo; ]
+tags: [&ldquo;hugo&rdquo;, &ldquo;theme&rdquo;, &ldquo;html&rdquo;, &ldquo;css&rdquo;]
+weight: 10 Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://lucho8908.github.io/posts/creating-a-new-theme/"><meta property="article:section" content="posts">
 <meta property="og:site_name" content="Luis G. Polanco Contreras">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css>
-<link rel=stylesheet href=/scss/hyde-hyde.3081c4981fb69a2783dd36ecfdd0e6ba7a158d4cbfdd290ebce8f78ba0469fc6.css integrity="sha256-MIHEmB+2mieD3Tbs/dDmunoVjUy/3SkOvOj3i6BGn8Y=">
+<link rel=stylesheet href=/scss/hyde-hyde.3e98f5bbc0cc4516a2d9798970eae12c7bac6845e4224d3d968ed6a5432521c6.css integrity="sha256-Ppj1u8DMRRai2XmJcOrhLHusaEXkIk09lo7WpUMlIcY=">
 <link rel=stylesheet href=/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58+TzH3icCkSHGoJ+ed7w=" media=print><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js></script>
 <script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]-->
 <link rel=apple-touch-icon-precomposed sizes=144x144 href=/apple-touch-icon-144-precomposed.png>
@@ -35,7 +47,7 @@ Luis G. Polanco
 <img src=https://lucho8908.github.io/img/avatar.jpg alt="Author Image" class="img--circle img--headshot element--center">
 </div>
 <p class=site__description>
-I'm a PhD student at CMSE - MSU
+PhD | Data Sciene | Machine Learning
 </p>
 </div>
 <div class=collapsible-menu>
@@ -50,8 +62,18 @@ I'm a PhD student at CMSE - MSU
 </a>
 </li>
 <li>
+<a href=/projects/>
+<span>Projects</span>
+</a>
+</li>
+<li>
 <a href=/publications/>
 <span>Publications</span>
+</a>
+</li>
+<li>
+<a href=/talks/>
+<span>Talks</span>
 </a>
 </li>
 <li>
@@ -94,12 +116,12 @@ Built with <a href=https://gohugo.io>Hugo</a> ❤️ <a href=https://github.com/
 </header>
 <div class=post>
 <hr>
-<h2 id=weight-10>author: &ldquo;Michael Henderson&rdquo;
-date: 2014-09-28
-linktitle: Creating a New Theme
-title: Creating a New Theme
-categories: [ &ldquo;Development&rdquo;, &ldquo;hugo&rdquo; ]
-tags: [&ldquo;hugo&rdquo;, &ldquo;theme&rdquo;, &ldquo;html&rdquo;, &ldquo;css&rdquo;]
+<h2 id=weight-10>author: &ldquo;Michael Henderson&rdquo;<br>
+date: 2014-09-28<br>
+linktitle: Creating a New Theme<br>
+title: Creating a New Theme<br>
+categories: [ &ldquo;Development&rdquo;, &ldquo;hugo&rdquo; ]<br>
+tags: [&ldquo;hugo&rdquo;, &ldquo;theme&rdquo;, &ldquo;html&rdquo;, &ldquo;css&rdquo;]<br>
 weight: 10</h2>
 <h2 id=introduction>Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
